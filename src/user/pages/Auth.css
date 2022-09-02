@@ -1,0 +1,51 @@
+.user-login{
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.user-login__title{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.user-login__title h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.user-login__form{
+    min-width: 300px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.user-login__field{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: aqua;
+}
+.user-login__lable{
+    font-size: large;
+}
+
+.user-login__fieldfp{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.user-login__fieldregister{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px!important;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,80 @@
+.form_card{
+    width: 60%;
+    min-width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.new-place__title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.new-place__form{
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: #ff0055; */
+}
+.input_field{
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid #ff0055;
+    padding-left: 15px;
+
+}
+.input_field:focus{
+    outline: 2px solid #ff0055;
+}
+.new-place__description{
+    width:100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ff0055;
+    padding: 5px 20px;
+    margin: 5px auto;
+}
+.place_pic{
+    margin: auto;
+    /* background-color: #ff0055; */
+}
+.select_picbtn{
+    background-color: whitesmoke;
+    font-weight: 600;
+    transition: font-size ease .5s;
+}
+.select_picbtn:hover{
+    font-size: 18px;
+    background-color: rgb(95, 95, 95);
+}
+
+
+
+.submitbtn{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff0055;
+    color: white;
+    font-weight: 600;
+}
+.submit-field{
+    text-align: center;
+    margin-top: 5px;
+    /* margin-bottom: 30px; */
+}

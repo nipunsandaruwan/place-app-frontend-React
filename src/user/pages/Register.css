@@ -1,0 +1,45 @@
+.user-register{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    min-width: 400px;
+    max-width: 600px;
+    margin-top: 20px;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.user-register__title{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 20px;
+    /* margin-top: 25px !important; */
+}
+.register__form{
+    width: 80%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+.user-register__registerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.registerbtn{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ff0055;
+    font-size: 17px;
+    font-weight: 700;
+    transition: background-color ease .5s;
+    margin-bottom: 30px;
+}
+.registerbtn:hover{
+    background-color: #ff0055;
+    
+}

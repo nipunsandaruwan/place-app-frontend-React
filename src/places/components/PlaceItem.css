@@ -1,0 +1,109 @@
+.place-item__card{
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  margin-bottom: 30px;
+  min-width: 480px;
+}
+.place-item {
+    margin: 1rem 0;
+  }
+  
+  .place-item__content {
+    padding: 0;
+  }
+  
+  .place-item__info {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+  }
+  
+  .place-item__image {
+    width: 100%;
+    height: 12.5rem;
+    /* margin-right: 1.5rem; */
+    overflow: hidden;
+  }
+  
+  .place-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .place-item__info h2,
+  .place-item__info h3,
+  .place-item__info p {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .place-item__actions {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+  }
+  .place-item__viewbtn{
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    color: #ff0055;
+    border-radius: 5px;
+    border: 1px solid #ff0055;
+  }
+  .place-item__viewbtn:hover{
+    background-color: #ff0055;
+    color: white;
+  }
+  .place-item__editbtn{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff0055;
+    border-radius: 5px;
+    border: 1px solid #ff0055;
+  }
+  .place-item__deletebtn{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    color: white;
+    background-color: #3d0014;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .place-item__modal-content {
+    padding: 0;
+  }
+  
+  .place-item__modal-actions {
+    text-align: right;
+  }
+  
+  .place-item__actions button,
+  .place-item__actions a {
+    margin: 0.5rem;
+  }
+  @media (max-width: 767px) {
+    .place-item__card{
+      max-width: 500px;
+      /* background-color: #3d0014; */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .place-item__card{
+      max-width: 750px;
+      min-width: 700px;
+      /* background-color: #3d0014; */
+    }
+    .place-item__image {
+      height: 20rem;
+    } 
+  }
